@@ -1,0 +1,95 @@
+/*  estos son los Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 450px;/*Tmño body*/
+    margin: 0 auto;
+    padding: 150px;
+    background-color: #94733aea;
+}
+
+#container {
+    background-color: rgb(206, 189, 155);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+}
+
+/*  estos son los Estilos para el input y botones */
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f8cb00; /* bton agregar*/
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e3e3e3;/*fondo del boton*/
+}
+
+#controls {
+    margin: 15px 0;
+    display: flex;
+    gap: 10px;
+}
+
+#controls button {
+    flex: 1;
+    background-color: #d80f0f;/* color de los botones */
+}
+
+#controls button:hover {
+    background-color: #0bda57; /*f*/
+}
+
+/* estilos para la lista de tareas */
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #b9e605;/*borde*/ 
+    border-radius: 4px;
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+.task:hover {
+    background-color: #f0f0f0;/*f*/
+}
+
+/* Clases requeridas */
+.relleno {
+    background-color: rgb(223, 223, 11);
+}
+
+.tachado {
+    text-decoration: line-through;
+    color: #999;
+}
+
+/* Estilo para el output */
+#output {
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
